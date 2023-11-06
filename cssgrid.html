@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap:10px;
+            column-gap:70px;
+            row-gap:40px;
+        }
+        .items{
+            border: 3px soild green;
+            background-color:lightgreen;
+        
+            border-radius: 3px;
+        }
+        #item-1{
+            grid-column-start:1;
+            grid-column-end:2;
+         
+        }
+        #item-3{
+            grid-row-start:2;
+            grid-row-end:5;
+        }
+        .item-container{
+            display:grid;
+            grid-template-rows: repeat(5,1fr);
+        }
+        #item-1{
+            grid-row-start: 1;
+            grid-row-end:7;
+        }
+        .nested-items{
+            border:5px rgba(230, 135, 20, 0.74) soild;
+            border-radius: 3px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-container" id="item-1">DABBA 1
+            <div class=" nested-items">DABBA MAI DABBA 1</div>
+            <div class="nested-items">DABBA MAI DABBA 2</div>
+        </div>
+        <div class="items" id="item-2">DABBA 2</div>
+        <div class="items" id="item-3">DABBA 3</div>
+        <div class="items" id="item-4">DABBA 4</div>
+        <div class="items" id="item-5">DABBA 5</div>
+    </div>
+    
+</body>
+</html>

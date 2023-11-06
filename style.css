@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Black Ops One;
+    margin:10px ;
+    margin-right: 40%;
+    font-size:20px;
+    padding:10px;
+
+}
+.container{
+    background-color: #cfaf3c;
+    padding:5px 10px 10px 20px;
+    border:5px solid black ;
+    border-radius: 9px;
+
+}
+h1,h5{
+    text-align: center;
+}
+input[type="text"]
+input[type="email"]
+input[type="number"]
+input[type="password"]
+input[tpye="date"]
+select
+textarea{
+    width: 100%;
+    padding:12px;
+    border:1px;
+   
+}
+fieldset{
+    background-color:wheat;
+    border:3px solid black;
+    border-bottom: 5mm;
+    border-radius:6px;
+}
+input[type="submit"]{
+    background-color:rgb(23, 97, 121);
+    color:aliceblue;
+    padding: 10px 12px;
+    text-shadow: 1px 0 1px;
+    border-radius: 10px;
+    cursor:pointer;
+    width: 20%;
+    
+}
+input[type="submit"]:hover{
+    background-color:darkred;
+}
+h1,h5{
+    background-color:#d5a449;
+    width: 100%;
+
+}
+hr{
+    color: #cfaf3c;
+    border:2px solid brown;
+    
+}
+.gender{
+    background-color: blanchedalmond;
+}
+.BACK{
+    
+    BORDER:3PX SOLIDBLACK;
+    cursor:pointer;
+
+}
