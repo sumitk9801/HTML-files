@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Resources</title>
+    <link rel="stylesheet" href="./L1.CSS">
+</head>
+<body>
+    <header>
+             <h1>College Resources</h1>    
+             <button id="dark-mode-toggle"></button>      
+    </header>
+    <main>
+        <section id="notifications" class="section-box">
+            <a href="notifications.html">
+                <h2>Notifications</h2>
+            </a>      
+        </section>
+        <section id="notes" class="section-box">
+            <a href="notes.html">
+                <h2>Chapter-wise Notes</h2>
+            </a>
+        </section>
+        <section id="previous-papers" class="section-box">
+            <a href="previous-papers.html">
+                <h2>Previous Year Question Papers</h2>
+            </a>
+        </section>
+        <section id="questions" class="section-box">
+            <a href="questions.html">
+                <h2>Chapter-wise Questions</h2>
+            </a>
+        </section>
+        <section id="attendance" class="section-box">
+            <a href="attendance.html">
+                <h2>Attendance Tracker</h2>
+            </a>
+        </section>
+    </main>
+    <footer>
+    </footer> 
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+  
+</body>
+</html>
+
+
+
+        

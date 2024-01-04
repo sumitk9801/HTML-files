@@ -1,0 +1,118 @@
+/* style.css */
+ 
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+} 
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    background-color: #f5f5f5;  /* Light gray background */
+    color: #333;             /* Dark gray text */
+    font-family: sans-serif;
+  }
+  
+   header {
+    background-color: #007bff;  /* Vibrant blue header */
+    color: #fff;              /* White text on header */
+    padding: 15px;
+  } 
+  
+  main {
+    background-color: #fff;    /* White content area */
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+  }
+  
+  section {
+    border-radius: 5px;        /* Rounded corners for sections */
+    margin-bottom: 20px;
+  }
+  
+  /* Section colors and text colors */
+  #notifications {
+    background-color: #ffc107;  /* Vibrant yellow */
+    color: #333;
+  }
+  
+  #notes {
+    background-color: #28a745;  /* Vibrant green */
+    color: #fff;
+  }
+  
+  #previous-papers {
+    background-color: #dc3545;  /* Vibrant red */
+    color: #fff;
+  }
+  
+  #questions {
+    background-color: #4054b2;  /* Vibrant purple */
+    color: #fff;
+  }
+  
+  #attendance {
+    background-color: #007bff;  /* Vibrant blue */
+    color: #fff;
+  }
+  
+  h2 {
+    color: #fff;              /* White headings on colored sections */
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: #f5f5f5;  /* Light gray footer */
+    color: #333;
+    text-align: center;
+    padding: 15px;
+  }
+  /* style.css */
+/* ... other styles ... */
+
+.section-box {
+    /* ... other section styles ... */
+    transition: transform 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  .section-box:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+  }
+/* style.css */
+body {
+    /* ... your default light mode styles ... */
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Adjust other elements for dark mode as needed */
+  
